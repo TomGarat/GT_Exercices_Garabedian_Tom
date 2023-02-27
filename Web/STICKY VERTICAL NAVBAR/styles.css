@@ -1,0 +1,34 @@
+body
+{
+    background: #444444;
+}
+  *
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.vertical-menu 
+{
+    width: 200px;
+    position: fixed;
+}
+  .vertical-menu a 
+{
+    background-color: #444444; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+}
+  .vertical-menu a:hover 
+{
+    background-color: #444444; 
+}
+  .vertical-menu a.active 
+{
+    background-color: #04AA6D;
+    color: white;
+}
